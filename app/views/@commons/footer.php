@@ -15,7 +15,7 @@
             <h6>Контакти</h6>
             <a href="tel:+38 (096) 055 50 07" class="footer-tel">+38 (096) 055 50 07</a>
             <a href="tel:+38 (095) 055 50 07" class="footer-tel">+38 (095) 055 50 07</a>
-            <a href="mailto:icekond@gmail.com">icekond@gmail.com</a>
+            <a class="footer-mail" href="mailto:icekond@gmail.com">icekond@gmail.com</a>
             <p>м. Івано-Франківськ, вул. Павла Тичини, 8А, 95</p>
         </div>
         <div class="">
@@ -39,7 +39,7 @@
         <a href="#" class="fx-telegram">
             <img src="style/images/telegram.svg" alt="telegram">
         </a>
-        <a href="#" class="fx-phone">
+        <a href="tel:+38 (095) 055 50 07" class="fx-phone">
             <img src="style/images/tel-white.svg" alt="phone">
         </a>
         <a href="#calc-seaction" class="fx-calc butt-text">

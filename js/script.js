@@ -97,6 +97,6 @@ $(window).on("scroll", function () {
 // дивись і вчись =)
 $(".pop-up-back, .close-pop-up, .call-pop-up-phone").click(function (e) {
 	e.preventDefault();
-	$(".pop-up-phone").fadeToggle(50);
-	$(".pop-up-back").fadeToggle(50);
+	$(".pop-up-phone").fadeToggle(200);
+	$(".pop-up-back").fadeToggle(200);
 });

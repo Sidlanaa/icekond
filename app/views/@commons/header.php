@@ -7,13 +7,13 @@
         <nav>
             <ul class="d-flex">
                 <li>
-                    <a href="#">Про нас</a>
+                    <a href="#our-certifications">Про нас</a>
                 </li>
                 <li>
-                    <a href="#">Ціни на монтаж</a>
+                    <a href="#order-section">Ціни на монтаж</a>
                 </li>
                 <li>
-                    <a href="#">Послуги</a>
+                    <a href="#hit-sale">Послуги</a>
                 </li>
             </ul>
         </nav>

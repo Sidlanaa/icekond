@@ -212,7 +212,7 @@
 		</form>
 	</div>
 </section>
-<section class="order-section container">
+<section id="order-section" class="order-section container">
 	<div class="order-type d-flex justify-center">
 		<a href="#" class="conditioner type active">Кондиціонер</a>
 		<a href="#" class="recuperator type">Рекуператор</a>
@@ -344,7 +344,7 @@
 		</div>
 	</div>
 </section>
-<section class="hit-sale container">
+<section id="hit-sale" class="hit-sale container">
 	<h2 class="section-item">Хіти продаж</h2>
 	<div class="sale-line">
 		<div class="hit-sale-position sale-block">
@@ -495,7 +495,7 @@
 		</div>
 	</div>
 </section>
-<section class="our-certifications blue-back">
+<section id="our-certifications" class="our-certifications blue-back">
 	<h2 class="section-item">Наші сертифікати</h2>
 	<div class="container d-flex wrap flex-start">
 		<img src="images/Rectangle 88.png" alt="Certifications">
