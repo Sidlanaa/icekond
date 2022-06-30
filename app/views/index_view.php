@@ -73,10 +73,6 @@
 				<img class="rhomb-grey" src="style/images/rhombDis.svg" alt="point">
 				<img class="rhomb-green form__element-hide" src="style/images/rhomb.svg" alt="point">
 			</div>
-			<div class="rhomb">
-				<img class="rhomb-grey" src="style/images/rhombDis.svg" alt="point">
-				<img class="rhomb-green form__element-hide" src="style/images/rhomb.svg" alt="point">
-			</div>
 		</div>
 	</div>
 	<div class="form-container">
@@ -85,7 +81,6 @@
 			<span class="form__title form__element-hide">Орієнтовна площа приміщення?</span>
 			<span class="form__title form__element-hide">Чи потрібні терміни виконання послуг?</span>
 			<span class="form__title form__element-hide">Готово!</span>
-			<span class="form__title form__element-hide"></span>
 			<div class="form__wrap">
 				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
@@ -207,21 +202,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide">
-							<div class="check-form-five">
-								<div class="check-form-five-block">
-									<p>Дякую, Ваша заявка прийнята!</p>
-									<h4>Ми зв’яжемося з Вами найближчим часом</h4>
-									<img src="images/done.png" alt="done">
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
 			<div class="form__btn-wrap d-flex align-center justify-center">
 				<button type="button" class="swiper-prev">Назад</button>
-				<button type="button" class="swiper-next active">Далі</button>
+				<button type="button" class="swiper-next">Далі</button>
 			</div>
 		</form>
 	</div>

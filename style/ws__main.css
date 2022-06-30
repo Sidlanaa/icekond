@@ -1085,7 +1085,7 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 130vh;
+  height: fit-content;
   width: 100vw;
   position: relative;
   z-index: 0;
@@ -1096,7 +1096,7 @@ header{
 .blur-background{
   background: #2C302D;
   opacity: 0.8;
-  height: 130vh;
+  height: 100%;
   width: 100vw;
   position: absolute;
   z-index: 1;
@@ -1104,7 +1104,8 @@ header{
 .main-section-into{
   z-index: 4;
   flex-direction: column;
-  position: absolute;
+  position: relative;
+  margin-top: 275px;
 }
 .main-section-into *{
   color: #fff;
@@ -1172,32 +1173,18 @@ header{
   font-size: 18px;
   line-height: 22px;
 }
-@media (min-width: 1499px){
-  .main-section{
-    height: 100vh;
-  }
-  .blur-background{
-    height: 100vh;
-  }
-}
 @media (max-width: 1199px) {
-  .main-section{
-    height: 120vh;
-  }
-  .blur-background{
-    height: 120vh;
+  .main-section-into{
+    margin-top: 250px;
   }
   .main-section-into h1{
     font-size: 36px;
     line-height: 38px;
   }
 }
-@media (max-width: 991px) {
-  .main-section{
-    height: 110vh;
-  }
-  .blur-background{
-    height: 110vh;
+@media (max-width: 991px){
+  .main-section-into{
+    margin-top: 200px;
   }
   .main-section-into h1{
     font-size: 20px;
@@ -1223,11 +1210,8 @@ header{
   }
 }
 @media (max-width: 767px) {
-  .main-section{
-    height: 100vh;
-  }
-  .blur-background{
-    height: 100vh;
+  .main-section-into{
+    margin-top: 150px;
   }
   .main-section-into h1{
     order: -1;
@@ -1300,11 +1284,8 @@ header{
   }
 }
 @media (max-width: 576px) {
-  .main-section{
-    height: 90vh;
-  }
-  .blur-background{
-    height: 90vh;
+  .main-section-into{
+    margin-top: 140px;
   }
   .main-section-into{
     bottom: 20px;
@@ -1315,14 +1296,6 @@ header{
     font-size: 12px;
     line-height: 14px;
     padding: 14px 0;
-  }
-}
-@media (max-width: 380px) {
-  .main-section{
-    height: 110vh;
-  }
-  .blur-background{
-    height: 110vh;
   }
 }
 
@@ -1340,7 +1313,7 @@ header{
 }
 .rhomb-line{
   height: 10px;
-  width: 600px;
+  width: 450px;
   background: #2c302d0c;
   margin: 10px auto 40px;
   border-radius: 5px;
@@ -1630,7 +1603,7 @@ header{
   }
 }
 
-/* two-three */
+/* form-three */
 .check-form-three{
   margin: 10% 0 0;
 }
@@ -1673,7 +1646,7 @@ header{
   }
 }
 
-/* two-four */
+/* four-form */
 .check-form-four h5{
   font-weight: 700;
   font-size: 18px;
@@ -1723,66 +1696,6 @@ header{
   }
 }
 
-/* two-five */
-.check-form-five-block{
-  border-radius: 5px;
-  box-shadow: -5px 5px 5px #dfe0df;
-  width: 350px;
-  padding: 40px 5px 30px;
-  border: 1px solid rgba(44, 48, 45, 0.2);
-  margin: 0 auto;
-}
-.check-form-five-block p{
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #000000;
-}
-.check-form-five-block h4{
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: #000000;
-  margin: 10px auto 40px;
-}
-.check-form-five-block img{
-  border-radius: 5px;
-  width: 310px;
-  margin: 0 auto;
-}
-@media (max-width: 1199px) {
-  .check-form-five{
-    margin: 30% 0 0;
-  }
-}
-@media (max-width: 767px) {
-  .check-form-five{
-    margin: 15% 0 0;
-  }
-}
-@media (max-width: 576px) {
-  .check-form-five{
-    margin: 5% 0 0;
-  }
-  .check-form-five-block{
-    width: 250px;
-  }
-  .check-form-five-block p{
-    font-size: 11px;
-    line-height: 14px;
-  }
-  .check-form-five-block h4{
-    font-size: 18px;
-    line-height: 23px;
-    margin: 10px auto 40px;
-  }
-  .check-form-five-block img{
-    width: 230px;
-  }
-}
-
 /* nav-buttons */
 .form__btn-wrap {
   position: absolute;
@@ -1798,22 +1711,26 @@ header{
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #2C302D;
-  opacity: 0.2;
-  border: 1px solid #2C302D;
   border-radius: 5px;
   width: 140px;
   padding: 12px 0;
   text-align: center;
   margin: 0 20px;
 }
-.form__btn-wrap .swiper-prev.active,
-.form__btn-wrap .swiper-next.active{
+.form__btn-wrap .swiper-prev,
+.form__btn-wrap .swiper-next{
   color: #00A329;
   border: 1px solid #00A329;
-  opacity: 1;
   cursor: pointer;
 }
+.swiper-prev.swiper-button-disabled,
+.swiper-next.swiper-button-disabled{
+  border: 1px solid #2C302D ;
+  color: #2C302D;
+  cursor: auto;
+  opacity: 0.2;
+}
+
 @media (max-width: 767px) {
   .form__btn-wrap {
     padding: 0 20px;

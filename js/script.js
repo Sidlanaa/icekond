@@ -38,13 +38,12 @@ numberInput.addEventListener("input", handleInputChange);
 
 // slider
 let swiper = new Swiper(".mySwiper", {
-	cssMode: true,
 	allowTouchMove: false,
 	spaceBetween: 30,
 
 	navigation: {
-		nextEl: ".swiper-next",
 		prevEl: ".swiper-prev",
+		nextEl: ".swiper-next",
 	},
 	pagination: {
 		el: ".swiper-pagination",
@@ -83,7 +82,6 @@ $(".swiper-prev, .swiper-next").on("click", function (e) {
 
 	setTimeout(() => {
 		$(".swiper-next, .swiper-prev").css("pointer-events", "auto");
-		$(".swiper-next, .swiper-prev").addClass("active");
 	}, 600);
 });
 
