@@ -1777,6 +1777,30 @@ header{
   max-width: 70%;
   margin: -20px auto 40px;
 }
+.air-conditioners{
+  display: block;
+}
+.recuperators{
+  display: none;
+}
+.cond21{
+  display: flex;
+}
+.cond25{
+  display: none;
+}
+.cond35{
+  display: none;
+}
+.rec21{
+  display: flex;
+}
+.rec25{
+  display: none;
+}
+.rec35{
+  display: none;
+}
 .choose-room-size{
   margin-bottom: 40px;
 }

@@ -217,91 +217,338 @@
 		<a href="#" class="conditioner type active">Кондиціонер</a>
 		<a href="#" class="recuperator type">Рекуператор</a>
 	</div>
-	<h2 class="section-item">Купити кондиціонер в Івано-Франківську</h2>
-	<p class="order-section-p">Акційні пропозиції кондиціонерів з монтажем, які ми рекомендуємо виходячи з
-		нашого досвіду та співвідношення ціна/якість</p>
-	<div class="choose-room-size d-flex justify-center align-center">
-		<p>Площа приміщення:</p>
-		<a href="#" class="to-21 room-size active">до 21 м&sup2</a>
-		<a href="#" class="to-25 room-size">21-25 м&sup2</a>
-		<a href="#" class="to-35 room-size">25-35 м&sup2</a>
+	<div class="air-conditioners">
+		<h2 class="section-item">Купити кондиціонер в Івано-Франківську</h2>
+		<p class="order-section-p">Акційні пропозиції кондиціонерів з монтажем, які ми рекомендуємо виходячи з
+			нашого досвіду та співвідношення ціна/якість</p>
+		<div class="choose-room-size d-flex justify-center align-center">
+			<p>Площа приміщення:</p>
+			<a href="#" class="to-21-c room-size active">до 21 м&sup2</a>
+			<a href="#" class="to-25-c room-size">21-25 м&sup2</a>
+			<a href="#" class="to-35-c room-size">25-35 м&sup2</a>
+		</div>
+		<div class="sale-line cond21">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Економ</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Оптимальний</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+		</div>
+		<div class="sale-line cond25">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Економ</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+		</div>
+		<div class="sale-line cond35">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
+			</div>
+		</div>
 	</div>
-	<div class="sale-line">
-		<div class="order-position-block sale-block">
-			<div class="set-type">
-				<h4>Пакет <span>Економ</span></h4>
-			</div>
-			<div class="sale-img">
-				<img src="images/Карточка Економ фото.png" alt="tover">
-			</div>
-			<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
-			<p class="clear-price">7500 грн</p>
-			<p class="sale-description">Рекомендована площа: 20 м2</p>
-			<p class="sale-description">Продуктивність: 7000 </p>
-			<p class="sale-description">Гарантія: 2 роки</p>
-			<p class="sale-description">Країна виробник: Китай</p>
-			<div>
-				<p class="service-plus">+ монтаж “під ключ”</p>
-				<p class="order-block-price">8150 грн</p>
-			</div>
-			<form action="" class="common-form">
-				<label for="tel-order-calculation flex">
-					<img src="style/images/tel.svg" alt="tel">
-					<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
-				</label>
-				<input type="submit" class="green-button" value="Замовити">
-			</form>
-			<p class="saving">Економія 500 грн</p>
+	<div class="recuperators">
+		<h2 class="section-item">Купити рекуператори в Івано-Франківську</h2>
+		<p class="order-section-p">Акційні пропозиції рекуператорів з монтажем, які ми рекомендуємо виходячи з
+			нашого досвіду та співвідношення ціна/якість</p>
+		<div class="choose-room-size d-flex justify-center align-center">
+			<p>Площа приміщення:</p>
+			<a href="#" class="to-21-r room-size active">до 21 м&sup2</a>
+			<a href="#" class="to-25-r room-size">21-25 м&sup2</a>
+			<a href="#" class="to-35-r room-size">25-35 м&sup2</a>
 		</div>
-		<div class="order-position-block sale-block">
-			<div class="set-type">
-				<h4>Пакет <span>Оптимальний</span></h4>
+		<div class="sale-line rec21">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Економ</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Рекуператор 2222222222222222222222</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<div class="sale-img">
-				<img src="images/Карточка Економ фото.png" alt="tover">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Оптимальний</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Ре Рекуператор Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
-			<p class="clear-price">7500 грн</p>
-			<p class="sale-description">Рекомендована площа: 20 м2</p>
-			<p class="sale-description">Продуктивність: 7000 </p>
-			<p class="sale-description">Гарантія: 2 роки</p>
-			<p class="sale-description">Країна виробник: Китай</p>
-			<div>
-				<p class="service-plus">+ монтаж “під ключ”</p>
-				<p class="order-block-price">8150 грн</p>
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">рекуператори Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<form action="" class="common-form">
-				<label for="tel-order-calculation flex">
-					<img src="style/images/tel.svg" alt="tel">
-					<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
-				</label>
-				<input type="submit" class="green-button" value="Замовити">
-			</form>
-			<p class="saving">Економія 500 грн</p>
 		</div>
-		<div class="order-position-block sale-block">
-			<div class="set-type">
-				<h4>Пакет <span>VIP</span></h4>
+		<div class="sale-line rec25">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>Економ</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<p class="sale-description">Гарантія: 2 роки</p>
+				<p class="sale-description">Країна виробник: Китай</p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<div class="sale-img">
-				<img src="images/Карточка Економ фото.png" alt="tover">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
-			<p class="clear-price">7500 грн</p>
-			<p class="sale-description">Рекомендована площа: 20 м2</p>
-			<p class="sale-description">Продуктивність: 7000 </p>
-			<div>
-				<p class="service-plus">+ монтаж “під ключ”</p>
-				<p class="order-block-price">8150 грн</p>
+		</div>
+		<div class="sale-line rec35">
+			<div class="order-position-block sale-block">
+				<div class="set-type">
+					<h4>Пакет <span>VIP</span></h4>
+				</div>
+				<div class="sale-img">
+					<img src="images/Карточка Економ фото.png" alt="tover">
+				</div>
+				<h5 class="sale-item">Рекуператор Cooper&Hunter Prima Plus CH-S07XN7</h5>
+				<p class="clear-price">7500 грн</p>
+				<p class="sale-description">Рекомендована площа: 20 м2</p>
+				<p class="sale-description">Продуктивність: 7000 </p>
+				<div>
+					<p class="service-plus">+ монтаж “під ключ”</p>
+					<p class="order-block-price">8150 грн</p>
+				</div>
+				<form action="" class="common-form">
+					<label for="tel-order-calculation flex">
+						<img src="style/images/tel.svg" alt="tel">
+						<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
+					</label>
+					<input type="submit" class="green-button" value="Замовити">
+				</form>
+				<p class="saving">Економія 500 грн</p>
 			</div>
-			<form action="" class="common-form">
-				<label for="tel-order-calculation flex">
-					<img src="style/images/tel.svg" alt="tel">
-					<input id="tel-order-calculation" type="tel" required placeholder="Ваш телефон">
-				</label>
-				<input type="submit" class="green-button" value="Замовити">
-			</form>
-			<p class="saving">Економія 500 грн</p>
 		</div>
 	</div>
 	<p class="specification">*Монтаж “під ключ” включає довжину магістралі до 3-х метрів. <a href="#">Детальніше...</a></p>
