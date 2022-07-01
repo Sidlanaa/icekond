@@ -57,7 +57,7 @@ $(".mySwiper").bind("touchmove", false);
 let count = 0;
 
 $(".swiper-prev, .swiper-next").on("click", function (e) {
-	$(".swiper-next, .swiper-prev").css("pointer-events", "none");
+	// $(".swiper-next, .swiper-prev").css("pointer-events", "none");
 	console.log(count);
 	if (e.target.classList.contains("swiper-next")) {
 		if (count < $(".rhomb-green").length - 1) {
@@ -80,9 +80,9 @@ $(".swiper-prev, .swiper-next").on("click", function (e) {
 		}
 	}
 
-	setTimeout(() => {
-		$(".swiper-next, .swiper-prev").css("pointer-events", "auto");
-	}, 600);
+	// setTimeout(() => {
+	// 	$(".swiper-next, .swiper-prev").css("pointer-events", "auto");
+	// }, 600);
 });
 
 // fixed right buttons
@@ -94,13 +94,27 @@ $(window).on("scroll", function () {
 	}
 });
 
+
+// blur for button next
+$(".one-block-input, .two-block-input, .three-block-input").change(function(){
+	$(".swiper-next").removeClass("blur-for-button");
+});
+
+$(".swiper-next").click(function(){
+	$(this).addClass("blur-for-button");
+});
+
+$(".swiper-prev").click(function(){
+	$(".swiper-next").removeClass("blur-for-button");
+});
+
+
 // дивись і вчись =)
 $(".pop-up-back, .close-pop-up, .call-pop-up-phone").click(function (e) {
 	e.preventDefault();
 	$(".pop-up-phone").fadeToggle(200);
 	$(".pop-up-back").fadeToggle(200);
 });
-
 
 // conditioners vs recuperators
 $(".conditioner").click(function (e) {
@@ -113,7 +127,6 @@ $(".recuperator").click(function (e) {
 	$(".recuperators").css("display", "block");
 	$(".air-conditioners").css("display", "none");
 });
-
 
 // conditioners square
 $(".to-21-c").click(function (e) {

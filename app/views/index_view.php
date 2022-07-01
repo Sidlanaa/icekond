@@ -90,7 +90,7 @@
 									<label for="flat">
 										<img src="images/1 объект фото.png" alt="flat">
 										<div class="d-flex align-center">
-											<input type="radio" id="flat" name="space">
+											<input type="radio" id="flat" name="space" class="one-block-input">
 											<p>Квартира</p>
 										</div>
 									</label>
@@ -99,7 +99,7 @@
 									<label for="house">
 										<img src="images/2 объект фото.png" alt="house">
 										<div class="d-flex align-center">
-											<input type="radio" id="house" name="space">
+											<input type="radio" id="house" name="space" class="one-block-input">
 											<p>Будинок</p>
 										</div>
 									</label>
@@ -108,7 +108,7 @@
 									<label for="office">
 										<img src="images/3 объект фото.png" alt="office">
 										<div class="d-flex align-center">
-											<input type="radio" id="office" name="space">
+											<input type="radio" id="office" name="space" class="one-block-input">
 											<p>Офіс</p>
 										</div>
 									</label>
@@ -117,7 +117,7 @@
 									<label for="store">
 										<img src="images/4 объект фото.png" alt="store">
 										<div class="d-flex align-center">
-											<input type="radio" id="store" name="space">
+											<input type="radio" id="store" name="space" class="one-block-input">
 											<p>Магазин</p>
 										</div>
 									</label>
@@ -126,7 +126,7 @@
 									<label for="hotel">
 										<img src="images/5 объект фото.png" alt="hotel">
 										<div class="d-flex align-center">
-											<input type="radio" id="hotel" name="space">
+											<input type="radio" id="hotel" name="space" class="one-block-input">
 											<p>Готель</p>
 										</div>
 									</label>
@@ -135,7 +135,7 @@
 									<label for="other-space">
 										<img src="images/6 объект фото.png" alt="other-space">
 										<div class="d-flex align-center">
-											<input type="radio" id="other-space" name="space">
+											<input type="radio" id="other-space" name="space" class="one-block-input">
 											<p>Інше приміщення</p>
 										</div>
 									</label>
@@ -149,12 +149,12 @@
 									<div class="check-form-two-inner">
 										<div class="square-calc d-flex align-center">
 											<p>ПЛОЩА:</p>
-											<input type="number" min="0" max="100" id="rangevalue" value="0" oninput="range.value=value" class="square-input"><p>м&sup2</p>
+											<input type="number" min="0" max="100" id="rangevalue" value="0" oninput="range.value=value" class="square-input two-block-input"><p>м&sup2</p>
 										</div>
 										<input class="range-input" type="range" value="0" min="0" max="100"
 											id="range" oninput="rangevalue.value=value" />
 										<div class="check-two-block d-flex align-center">
-											<input type="checkbox" id="remember" name="remember">
+											<input type="checkbox" id="remember" name="remember" class="two-block-input">
 											<label for="remember">Не пам’ятаю</label>
 										</div>
 									</div>
@@ -167,15 +167,15 @@
 									<img src="images/этап3 фото.png" alt="room">
 									<div class="radio-three-block">
 										<div class="radio-time d-flex align-center">
-											<input type="radio" id="time-tomorrow" name="radio-time">
+											<input type="radio" id="time-tomorrow" name="radio-time" class="three-block-input">
 											<label for="time-tomorrow">Вже завтра</label>
 										</div>
 										<div class="radio-time d-flex align-center">
-											<input type="radio" id="time-week" name="radio-time">
+											<input type="radio" id="time-week" name="radio-time" class="three-block-input">
 											<label for="time-week">Протягом тижня</label>
 										</div>
 										<div class="radio-time d-flex align-center">
-											<input type="radio" id="time-month" name="radio-time">
+											<input type="radio" id="time-month" name="radio-time" class="three-block-input">
 											<label for="time-month">Протягом тижня</label>
 										</div>
 									</div>
@@ -207,7 +207,7 @@
 			</div>
 			<div class="form__btn-wrap d-flex align-center justify-center">
 				<button type="button" class="swiper-prev">Назад</button>
-				<button type="button" class="swiper-next">Далі</button>
+				<button type="button" class="swiper-next blur-for-button">Далі</button>
 			</div>
 		</form>
 	</div>

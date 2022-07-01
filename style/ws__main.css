@@ -1039,7 +1039,7 @@ header{
     flex-direction: column;
   }
   .header-icons a img{
-    margin: 3px 0;
+    margin: 0 0 6px;
   }
 }
 @media (max-width: 767px) {
@@ -1063,7 +1063,7 @@ header{
     margin: -6px 0 0 10px;
   }
   .header-contacts{
-    margin: 8px 150px 0 20px;
+    margin: 5px 150px 0 20px;
   }
   .header-contacts .header-tel,
   .header-contacts p{
@@ -1495,6 +1495,9 @@ header{
     margin: 8px 5px 8px 10px;
     border-radius: 2px;
   }
+  .form-container input[type="radio"]:checked::after{
+    left: 1px;
+  }
   .check-form-one label p{
     font-size: 8px;
     line-height: 10px;
@@ -1725,7 +1728,15 @@ header{
 }
 .swiper-prev.swiper-button-disabled,
 .swiper-next.swiper-button-disabled{
-  border: 1px solid #2C302D ;
+  border: 1px solid #2C302D;
+  color: #2C302D;
+  cursor: auto;
+  opacity: 0.2;
+  pointer-events: none;
+}
+.blur-for-button{
+  pointer-events: none;
+  border: 1px solid #2C302D;
   color: #2C302D;
   cursor: auto;
   opacity: 0.2;
