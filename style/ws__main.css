@@ -1518,19 +1518,18 @@ header{
   text-transform: uppercase;
   color: #2C302D;
 }
-/* ............................................................................................................... */
 .check-form-two .square-input{
   width: 90px;
   margin: 0 20px;
   padding: 10px 0;
-  background: #FFFFFF;
-  border: 1px solid #2c302d25;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  background: #FFFFFF;
+  font-weight: 400;
+  text-align: center;
   color: #2C302D;
+  border: 1px solid #2c302d25;
+  border-radius: 10px;
   -moz-appearance: textfield;
 }
 .square-input::-webkit-outer-spin-button,
@@ -1541,34 +1540,34 @@ header{
   margin: 0 10px 0 0;
 }
 .check-form-two .check-two-block label{
-  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 500;
   color: #2C302D;
 }
 .range-input{
-  -webkit-appearance: none;
   width: 230px;
   height: 10px;
+  margin: 50px 0 70px;
   background: rgb(241, 240, 240);
-  border-radius: 5px;
   background-image: linear-gradient(var(--color-primary), var(--color-primary));
   background-size: 0% 100%;
+  border-radius: 5px;
   background-repeat: no-repeat;
-  margin: 50px 0 70px;
+  -webkit-appearance: none;
 }
 .range-input::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  height: 30px;
   width: 30px;
+  height: 30px;
   background-image: url(images/rhomb.svg);
   cursor: pointer;
-}
-.range-input::-webkit-slider-runnable-track  {
   -webkit-appearance: none;
-  box-shadow: none;
-  border: none;
+}
+.range-input::-webkit-slider-runnable-track{
   background: transparent;
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none;
 }
 @media (max-width: 1199px) {
   .check-form-two{
@@ -1579,8 +1578,8 @@ header{
     justify-content: center;
   }
   .check-form-two img.check-form-two-img{
-    margin: 0 auto 30px;
     width: 70%;
+    margin: 0 auto 30px;
   }
   .check-form-two-inner{
     display: flex;
@@ -1609,15 +1608,15 @@ header{
   margin: 10% 0 0;
 }
 .check-form-three img{
+  width: 310px;
+  margin: 0 70px 0 0;
   border-radius: 5px;
   box-shadow: -5px 5px 5px #dfe0df;
-  margin: 0 70px 0 0;
-  width: 310px;
 }
 .check-form-three label{
-  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 500;
   color: #2C302D;
 }
 @media (max-width: 1199px) {
@@ -1628,8 +1627,8 @@ header{
     flex-direction: column;
   }
   .check-form-three img{
-    margin: 0 auto 30px;
     width: 70%;
+    margin: 0 auto 30px;
   }
   .form-container .check-form-three input[type="radio"]{
     margin: 0;
@@ -1649,21 +1648,21 @@ header{
 
 /* four-form */
 .check-form-four h5{
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
   max-width: 500px;
   margin: 30px auto 40px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
 }
 .check-form-four .common-form{
   width: 255px;
   margin: 0 auto;
 }
 .check-form-four .common-form label input{
-  margin-bottom: 10px;
   width: 192px;
+  margin-bottom: 10px;
 }
 .check-form-four .common-form input[type="submit"]{
   margin-top: 10px;
@@ -1683,14 +1682,14 @@ header{
     margin: 15% 0 0;
   }
   .check-form-four .common-form{
+    width: 204px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 204px;
   }
   .check-form-four .common-form label input{
-    margin-bottom: 10px;
     width: 154px;
+    margin-bottom: 10px;
   }
   .check-form-four .common-form input{
     width: 204px;
@@ -1702,21 +1701,21 @@ header{
   position: absolute;
   left: 0;
   right: 0;
-  margin: 0 auto;
   bottom: -22px;
-  background: #fff;
-  padding: 0 10px;
   max-width: 400px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: #fff;
 }
 .form__btn-wrap button {
-  font-weight: 500;
+  width: 140px;
+  margin: 0 20px;
+  padding: 12px 0;
   font-size: 14px;
   line-height: 17px;
-  border-radius: 5px;
-  width: 140px;
-  padding: 12px 0;
+  font-weight: 500;
   text-align: center;
-  margin: 0 20px;
+  border-radius: 5px;
 }
 .form__btn-wrap .swiper-prev,
 .form__btn-wrap .swiper-next{
@@ -1742,9 +1741,6 @@ header{
     padding: 8px 0;
   }
 }
-@media (max-width: 576px) {
-
-}
 
 /* ORDER SECTION */
 .order-section{
@@ -1755,27 +1751,27 @@ header{
   gap: 50px;
 }
 .order-type a{
-  font-weight: 700;
+  padding: 10px;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-text);
   border-bottom: 1px solid transparent;
-  padding: 10px;
 }
 .order-type a.type.active{
   color: var(--color-primary);
   border-bottom: 1px solid var(--color-primary);
 }
 .order-section-p{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: var(--color-text);
   max-width: 70%;
   margin: -20px auto 40px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-text);
 }
 .air-conditioners{
   display: block;
@@ -1805,19 +1801,19 @@ header{
   margin-bottom: 40px;
 }
 .choose-room-size p{
-  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 700;
   color: var(--color-text);
 }
 .choose-room-size a.room-size{
-  font-weight: 500;
+  margin: 0 20px;
+  padding: 10px;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 500;
   color: var(--color-text);
   border-bottom: 1px solid transparent;
-  padding: 10px;
-  margin: 0 20px;
 }
 .choose-room-size a.room-size.active{
   color: var(--color-primary);
@@ -1827,60 +1823,60 @@ header{
   padding: 80px 20px 40px;
 }
 .set-type{
-  background: #f8f4f4;
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+  width: 100%;
+  background: #f8f4f4;
 }
 .set-type h4{
-  font-weight: 400;
+  padding: 20px 0;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 400;
   text-align: center;
   color: var(--color-text);
-  padding: 20px 0;
 }
 .set-type h4 span{
   font-weight: 700;
   color: var(--color-primary);
 }
 .order-position-block .clear-price{
-  font-weight: 400;
+  margin: 0 0 10px;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 400;
   color: var(--color-text);
-  margin: 0 0 10px;
 }
 .order-position-block .service-plus{
-  text-align: center;
-  font-weight: 700;
+  margin: 20px 0 0;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 700;
+  text-align: center;
   color: var(--color-text);
-  margin: 20px 0 0;
 }
 .order-position-block .order-block-price{
-  color: var(--color-text);
-  font-weight: 700;
+  margin: 5px 0 10px;
   font-size: 36px;
   line-height: 44px;
+  font-weight: 700;
   text-align: center;
-  margin: 5px 0 10px;
+  color: var(--color-text);
 }
 .order-position-block .saving{
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 700;
   text-align: center;
   color: var(--color-primary);
 }
 .order-section .specification{
-  font-weight: 400;
   font-size: 14px;
-  color: var(--color-text);
+  font-weight: 400;
   text-align: center;
+  color: var(--color-text);
 }
 .order-section .specification a{
   font-style: italic;
@@ -1898,10 +1894,10 @@ header{
     line-height: 17px;
   }
   .order-section-p{
-    font-size: 14px;
-    line-height: 17px;
     max-width: 100%;
     margin: -10px auto 20px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .choose-room-size{
     margin-bottom: 20px;
@@ -1914,18 +1910,18 @@ header{
     margin: 30px 0 20px;
   }
   .set-type h4{
+    padding: 15px 0;
     font-size: 20px;
     line-height: 24px;
-    padding: 15px 0;
   }
   .order-position-block .clear-price{
     font-size: 14px;
     line-height: 18px;
   }
   .order-position-block .service-plus{
+    margin: 15px 0 0;
     font-size: 14px;
     line-height: 18px;
-    margin: 15px 0 0;
   }
   .order-position-block .order-block-price{
     font-size: 29px;
@@ -1942,20 +1938,20 @@ header{
   padding: 60px 0;
 }
 .calculation-call-form{
-  background: #FFFFFF;
-  border: 1px solid rgba(44, 48, 45, 0.2);
-  border-radius: 5px;
-  padding: 40px 45px;
-  box-shadow: -5px 5px 5px #dfe0df;
   position: relative;
   left: -100px;
+  padding: 40px 45px;
+  border: 1px solid rgba(44, 48, 45, 0.2);
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: -5px 5px 5px #dfe0df;
 }
 .calculation-call-form h4{
-  font-weight: 600;
+  margin: 0 0 20px;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 600;
   color: var(--color-text);
-  margin: 0 0 20px;
 }
 .calculation-call-form img{
   margin: 0 10px 0 0;
@@ -2016,21 +2012,21 @@ header{
 }
 .hit-sale-position .sales-marks{
   position: absolute;
-  display: flex;
-  flex-direction: column;
   left: 0;
   top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .sales-marks p{
   width: 75px;
-  font-weight: 500;
+  margin: 5px 0;
+  padding: 6px 9px;
   font-size: 10px;
   line-height: 12px;
+  font-weight: 500;
+  text-align: center;
   color: #FFFFFF;
   border-radius: 0px 5px 5px 0px;
-  padding: 6px 9px;
-  text-align: center;
-  margin: 5px 0;
 }
 .sales-marks p span{
   font-weight: 700;
@@ -2051,8 +2047,8 @@ header{
   margin: 50px 0 0;
 }
 .sale-bank img{
-  margin: 10px 0;
   height: 30px;
+  margin: 10px 0;
 }
 .sale-bank img.privat-parts{
   position: relative;
@@ -2062,20 +2058,20 @@ header{
   margin: 20px 0 80px;
 }
 .hit-sale-position .price .old-price{
-  font-weight: 400;
-  font-size: 24px;
-  text-decoration-line: line-through;
-  color: #2C302D;
   position: absolute;
   left: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: line-through;
+  color: #2C302D;
 }
 .hit-sale-position .price .current-price{
-  font-weight: 700;
-  font-size: 36px;
-  color: var(--color-primary);
   position: absolute;
   right: 20px;
   margin-top: 5px;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
 }
 @media (max-width: 1199px) {
   .hit-sale-position .price .old-price{
@@ -2091,16 +2087,16 @@ header{
   }
   .sales-marks p{
     width: 60px;
+    padding: 5px;
     font-size: 8px;
     line-height: 10px;
-    padding: 5px;
   }
   .hit-sale-position .sale-bank{
     margin: 30px 0 0;
   }
   .sale-bank img{
-    margin: 8px 0;
     height: 25px;
+    margin: 8px 0;
   }
   .hit-sale-position .price{
     margin: 16px 0 50px;
@@ -2153,19 +2149,19 @@ header{
 
 /* ORDER CALC SECTION */
 .order-calculation{
+  padding: 40px 60px;
   background-image: url(images/backForm.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px 60px;
   border: 1px solid rgba(44, 48, 45, 0.2);
   border-radius: 5px;
 }
 .order-calculation h2{
-  color: #fff;
-  text-align: left;
   width: 60%;
   margin: 0 0 40px;
+  text-align: left;
+  color: #fff;
 }
 .order-calculation label input{
   margin: 0 20px 0 0;
@@ -2235,8 +2231,8 @@ header{
 
 /* FOOTER */
 footer{
+  padding: 40px 0;
   background: #2C302D;
-  padding: 40px 0
 }
 footer *{
   color: #fff;
@@ -2245,22 +2241,22 @@ footer *{
   gap: 30px;
 }
 .footer h6{
-  font-weight: 700;
+  margin-bottom: 10px;
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 10px;
+  font-weight: 700;
 }
 .footer .footer-tel{
-  font-weight: 700;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 17px;
-  margin-bottom: 10px;
+  font-weight: 700;
 }
 .footer p{
-  font-weight: 500;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 17px;
-  margin-bottom: 10px;
+  font-weight: 500;
 }
 .footer .footer-mail{
   margin-bottom: 10px;
@@ -2313,28 +2309,28 @@ footer *{
   align-items: flex-end;
 }
 .fixed-butts a{
-  background: linear-gradient(180deg, #48D66B 0%, #38AF56 46.88%, #216933 100%);
-  box-shadow: 2px 2px 20px rgba(93, 207, 122, 0.25);
-  border-radius: 5px;
-  display: flex;
   width: 40px;
   height: 40px;
+  margin: 10px 0;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  background: linear-gradient(180deg, #48D66B 0%, #38AF56 46.88%, #216933 100%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(93, 207, 122, 0.25);
   transition: 0.2s;
 }
 .fixed-butts a img{
-  max-width: 24px;
   min-width: 20px;
+  max-width: 24px;
 }
 .fixed-butts a span{
   display: none;
-  font-weight: 500;
+  margin: 0 0 0 10px;
   font-size: 14px;
   line-height: 16px;
+  font-weight: 500;
   color: #fff;
-  margin: 0 0 0 10px;
 }
 .fixed-butts a.butt-text:hover{
   width: 220px;
@@ -2350,36 +2346,36 @@ footer *{
 
 /* POP-UP */
 .pop-up-back{
-  background-color: rgba(0, 0, 0, 0.9);
-  width: 100vw;
-  height: 100vh;
   position: fixed;
   z-index: 20;
   top: 0;
   right: 0;
   display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
   transition: 0.5s;
 }
 .pop-up-block{
   position: fixed;
-  width: 400px;
-  height: fit-content;
-  z-index: 22;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 22;
+  width: 400px;
+  height: fit-content;
   margin: auto auto;
-  background-color: #fff;
   padding: 30px 25px;
+  background-color: #fff;
   transition: 0.5s;
 }
 .pop-up-common{
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: -5px 5px 5px #dfe0df;
-  border-radius: 5px;
   padding: 40px 25px;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px #dfe0df;
 }
 .pop-up-common .close-pop-up{
   position: absolute;
@@ -2407,18 +2403,18 @@ footer *{
   padding: 40px 25px 60px;
 }
 .pop-up-phone h3{
-  font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 600;
   color: #000000;
 }
 .pop-up-phone p,
 .pop-up-phone span{
-  font-weight: 400;
+  margin: 10px 0 0;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 400;
   color: #000000;
-  margin: 10px 0 0;
 }
 .pop-up-phone form{
   margin: 30px 0 0
@@ -2440,17 +2436,17 @@ footer *{
   display: none;
 }
 .pop-up-thanks p{
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 700;
   color: #000000;
 }
 .pop-up-thanks h3{
-  font-weight: 400;
+  margin: 10px auto 40px;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 400;
   color: #000000;
-  margin: 10px auto 40px;
 }
 .pop-up-thanks img{
   border-radius: 5px;
@@ -2464,8 +2460,8 @@ footer *{
     line-height: 14px;
   }
   .pop-up-thanks h3{
+    margin: 10px auto 30px;
     font-size: 18px;
     line-height: 23px;
-    margin: 10px auto 30px;
   }
 }
