@@ -151,7 +151,7 @@
 											<p>ПЛОЩА:</p>
 											<input type="number" min="0" max="100" id="rangevalue" value="0" oninput="range.value=value" class="square-input two-block-input"><p>м&sup2</p>
 										</div>
-										<input class="range-input" type="range" value="0" min="0" max="100"
+										<input class="range-input two-block-input" type="range" value="0" min="0" max="100"
 											id="range" oninput="rangevalue.value=value" />
 										<div class="check-two-block d-flex align-center">
 											<input type="checkbox" id="remember" name="remember" class="two-block-input">
@@ -223,9 +223,9 @@
 			нашого досвіду та співвідношення ціна/якість</p>
 		<div class="choose-room-size d-flex justify-center align-center">
 			<p>Площа приміщення:</p>
-			<a href="#" class="to-21-c room-size active">до 21 м&sup2</a>
-			<a href="#" class="to-25-c room-size">21-25 м&sup2</a>
-			<a href="#" class="to-35-c room-size">25-35 м&sup2</a>
+			<a href="#" class="to-21-c room-size room-size-c active">до 21 м&sup2</a>
+			<a href="#" class="to-25-c room-size room-size-c">21-25 м&sup2</a>
+			<a href="#" class="to-35-c room-size room-size-c">25-35 м&sup2</a>
 		</div>
 		<div class="sale-line cond21">
 			<div class="order-position-block sale-block">
@@ -390,9 +390,9 @@
 			нашого досвіду та співвідношення ціна/якість</p>
 		<div class="choose-room-size d-flex justify-center align-center">
 			<p>Площа приміщення:</p>
-			<a href="#" class="to-21-r room-size active">до 21 м&sup2</a>
-			<a href="#" class="to-25-r room-size">21-25 м&sup2</a>
-			<a href="#" class="to-35-r room-size">25-35 м&sup2</a>
+			<a href="#" class="to-21-r room-size room-size-r active">до 21 м&sup2</a>
+			<a href="#" class="to-25-r room-size room-size-r">21-25 м&sup2</a>
+			<a href="#" class="to-35-r room-size room-size-r">25-35 м&sup2</a>
 		</div>
 		<div class="sale-line rec21">
 			<div class="order-position-block sale-block">
