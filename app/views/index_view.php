@@ -394,7 +394,6 @@
                     // dd($product);
 
                     if(isset($product->typ) && $product->typ->name == "Рекуператор"){
-                    // if(isset($product->typ) && $product->typ->name == "Кондиціонер"){
 
                     ?>
 
