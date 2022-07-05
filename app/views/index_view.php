@@ -224,9 +224,8 @@
         </form>
     </div>
 </section>
-<pre>
-    <?php print_r($products) ?>
-</pre>
+    <!-- <?php dd($products); ?> -->
+
 <section id="order-section" class="order-section container">
     <div class="order-type d-flex justify-center">
         <?php foreach($all_g as $index => $item) { ; if($item->parent == 0) {?>
@@ -250,20 +249,22 @@
 
         <?php foreach($all_g as $index => $item) { ; if($item->parent == 1) {?>
             <div id="cond-<?=$item->id?>" class="sale-line cond">
-                <?php foreach($products as  $product) { ; if($product->group_name == $item->name ) {
+                <?php
+
+                foreach($products as  $product) { ; if($product->group_name == $item->name ) {
                     if(isset($product->typ) && $product->typ->name == "Кондиціонер"){
                     ?>
-                
+
                     <div class="order-position-block sale-block">
                         <div class="set-type">
                             <h4>Пакет <span><?= $product->ekonom->name?></span></h4>
                         </div>
                         <div class="sale-img">
-                            <img src="images/Карточка Економ фото.png" alt="tover">
+                            <img src="<?= IMG_PATH . $product->photo ?>" alt="tover">
                         </div>
-                        <h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
-                        <p class="clear-price">7500 грн</p>
-                        <p class="sale-description">Рекомендована площа: 20 м2</p>
+                        <h5 class="sale-item"><?= $product->name ?></h5>
+                        <p class="clear-price"><?= $product->price ?> грн</p>
+                        <p class="sale-description"><?= $product->text ?></p>
                         <p class="sale-description">Продуктивність: 7000 </p>
                         <p class="sale-description">Гарантія: 2 роки</p>
                         <p class="sale-description">Країна виробник: Китай</p>
@@ -377,28 +378,36 @@
             нашого досвіду та співвідношення ціна/якість</p>
         <div class="choose-room-size d-flex justify-center align-center">
             <p>Площа приміщення:</p>
-            <?php foreach($all_g as $index => $item) { ; if($item->parent == 2) {?>
+            <?php 
 
-            <a href="#" class="to-21-r room-size room-size-r <?= $item->name  == "21" ? 'active' : ''?>"> <?=$item->name?> м&sup2</a>
+            foreach($all_g as $index => $item) { ; if($item->parent == 2) {
+                ?>
+
+            <a id="<?= $item->id?>" href="#" class="to-21-r room-size room-size-r <?= $item->name  == "21" ? 'active' : ''?>"> <?=$item->name?> м&sup2</a>
             <?php } } ?>
 
         </div>
-        <?php foreach($all_g as $index => $item) { ; if($item->parent == 1) {?>
+        <?php foreach($all_g as $index => $item) { ; if($item->parent == 2) {?>
             <div id="cond-<?=$item->id?>" class="sale-line cond">
                 <?php foreach($products as  $product) { ; if($product->group_name == $item->name ) {
+
+                    // dd($product);
+
                     if(isset($product->typ) && $product->typ->name == "Рекуператор"){
+                    // if(isset($product->typ) && $product->typ->name == "Кондиціонер"){
+
                     ?>
-                
+
                     <div class="order-position-block sale-block">
                         <div class="set-type">
                             <h4>Пакет <span><?= $product->ekonom->name?></span></h4>
                         </div>
                         <div class="sale-img">
-                            <img src="images/Карточка Економ фото.png" alt="tover">
+                            <img src="<?= IMG_PATH . $product->photo ?>" alt="tover">
                         </div>
-                        <h5 class="sale-item">Cooper&Hunter Prima Plus CH-S07XN7</h5>
-                        <p class="clear-price">7500 грн</p>
-                        <p class="sale-description">Рекомендована площа: 20 м2</p>
+                        <h5 class="sale-item"><?= $product->name ?></h5>
+                        <p class="clear-price"><?= $product->price ?> грн</p>
+                        <p class="sale-description"><?= $product->text ?></p>
                         <p class="sale-description">Продуктивність: 7000 </p>
                         <p class="sale-description">Гарантія: 2 роки</p>
                         <p class="sale-description">Країна виробник: Китай</p>

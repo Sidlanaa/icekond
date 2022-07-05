@@ -26,12 +26,15 @@ $(".conditioner").click(function (e) {
 	e.preventDefault();
 	$(".air-conditioners").css("display", "block");
 	$(".recuperators").css("display", "none");
+	$('.air-conditioners p + .room-size').trigger('click');
 });
+
 $(".recuperator").click(function (e) {
 	console.log('work2')
 	e.preventDefault();
 	$(".recuperators").css("display", "block");
 	$(".air-conditioners").css("display", "none");
+	$('.recuperators p + .room-size').trigger('click');
 });
 
 // conditioners square

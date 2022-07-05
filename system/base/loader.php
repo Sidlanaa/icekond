@@ -658,4 +658,17 @@ class Loader {
 	
 }
 
+/**
+ * DEBUG
+ */
+function dd($varriable,$exit = false) {
+	echo '<pre>';
+	print_r($varriable);
+	echo '</pre>';
+
+	if ($exit) {
+		exit;
+	}
+}
+
 ?>
