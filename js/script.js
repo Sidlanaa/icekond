@@ -22,32 +22,43 @@ $(".room-size-c").click(function (e) {
 });
 // conditioners vs recuperators
 $(".conditioner").click(function (e) {
+	console.log('work1')
 	e.preventDefault();
 	$(".air-conditioners").css("display", "block");
 	$(".recuperators").css("display", "none");
+	$('.air-conditioners p + .room-size').trigger('click');
 });
+
 $(".recuperator").click(function (e) {
+	console.log('work2')
 	e.preventDefault();
 	$(".recuperators").css("display", "block");
 	$(".air-conditioners").css("display", "none");
+	$('.recuperators p + .room-size').trigger('click');
 });
 
 // conditioners square
-$(".to-21-c").click(function (e) {
-	e.preventDefault();
-	$(".cond21").css("display", "flex");
-	$(".cond25, .cond35").css("display", "none");
-});
-$(".to-25-c").click(function (e) {
-	e.preventDefault();
-	$(".cond25").css("display", "flex");
-	$(".cond21, .cond35").css("display", "none");
-});
-$(".to-35-c").click(function (e) {
-	e.preventDefault();
-	$(".cond35").css("display", "flex");
-	$(".cond21, .cond25").css("display", "none");
-});
+
+$('.room-size').on('click', function () {
+	$(".cond").css("display", "none");
+	$(`#cond-${$(this).attr('id')}`).css("display", "flex");
+})
+
+// $(".to-21-c").click(function (e) {
+// 	e.preventDefault();
+// 	$(".cond21").css("display", "flex");
+// 	$(".cond25, .cond35").css("display", "none");
+// });
+// $(".to-25-c").click(function (e) {
+// 	e.preventDefault();
+// 	$(".cond25").css("display", "flex");
+// 	$(".cond21, .cond35").css("display", "none");
+// });
+// $(".to-35-c").click(function (e) {
+// 	e.preventDefault();
+// 	$(".cond35").css("display", "flex");
+// 	$(".cond21, .cond25").css("display", "none");
+// });
 
 // recuperators square
 $(".to-21-r").click(function (e) {
