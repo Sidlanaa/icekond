@@ -4,17 +4,17 @@
             <h6>IceKond</h6>
             <p>Продаж, монтаж, сервісне обслуговування систем кондиціонування та вентиляції</p>
             <div class="d-flex footer-icons">
-                <a href=""><img src="style/images/telegram.svg" alt="telegram"></a>
-                <a href=""><img src="style/images/viber.svg" alt="viber"></a>
-                <a href=""><img src="style/images/instagram.svg" alt="instagram"></a>
-                <a href=""><img src="style/images/facebook.svg" alt="facebook"></a>
+                <a href="<?=$this->text('telegram', 0)?>"><img src="style/images/telegram.svg" alt="telegram"></a>
+                <a href="<?=$this->text('viber', 0)?>"><img src="style/images/viber.svg" alt="viber"></a>
+                <a href="<?=$this->text('instagram', 0)?>"><img src="style/images/instagram.svg" alt="instagram"></a>
+                <a href="<?=$this->text('facebook', 0)?>"><img src="style/images/facebook.svg" alt="facebook"></a>
             </div>
             <p>© 2022 All rights reserved.</p>
         </div>
         <div class="">
             <h6>Контакти</h6>
-            <a href="tel:+38 (096) 055 50 07" class="footer-tel">+38 (096) 055 50 07</a>
-            <a href="tel:+38 (095) 055 50 07" class="footer-tel">+38 (095) 055 50 07</a>
+            <a href="tel:<?=$this->text('tel1', 0)?>" class="footer-tel"><?=$this->text('tel1', 0)?></a>
+            <a href="tel:<?=$this->text('tel2', 0)?>" class="footer-tel"><?=$this->text('tel2', 0)?></a>
             <a class="footer-mail" href="mailto:icekond@gmail.com">icekond@gmail.com</a>
             <p>м. Івано-Франківськ, вул. Павла Тичини, 8А, 95</p>
         </div>
@@ -33,13 +33,13 @@
 
 <div class="fixed-butts-wrapper">
     <div class="fixed-butts">
-        <a href="#" class="fx-viber">
+        <a href="<?=$this->text('viber', 0)?>" class="fx-viber">
             <img src="style/images/viber.svg" alt="viber">
         </a>
-        <a href="#" class="fx-telegram">
+        <a href="<?=$this->text('telegram', 0)?>" class="fx-telegram">
             <img src="style/images/telegram.svg" alt="telegram">
         </a>
-        <a href="tel:+38 (095) 055 50 07" class="fx-phone">
+        <a href="tel:<?=$this->text('tel2', 0)?>" class="fx-phone">
             <img src="style/images/tel-white.svg" alt="phone">
         </a>
         <a href="#calc-seaction" class="fx-calc butt-text">
