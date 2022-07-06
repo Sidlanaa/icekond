@@ -392,6 +392,7 @@
                 <?php foreach($products as  $product) { ; if($product->group_name == $item->name ) {
 
                     // dd($product);
+                    
 
                     if(isset($product->typ) && $product->typ->name == "Рекуператор"){
 
